@@ -1,0 +1,12 @@
+C:\Users\Leo\Desktop\DESAFIO API\RUST\target\release\deps\libahash-99cd0e456fa10345.rmeta: C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ahash-0.7.8\src/lib.rs C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ahash-0.7.8\src\convert.rs C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ahash-0.7.8\src\fallback_hash.rs C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ahash-0.7.8\src\operations.rs C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ahash-0.7.8\src\random_state.rs C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ahash-0.7.8\src\specialize.rs
+
+C:\Users\Leo\Desktop\DESAFIO API\RUST\target\release\deps\libahash-99cd0e456fa10345.rlib: C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ahash-0.7.8\src/lib.rs C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ahash-0.7.8\src\convert.rs C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ahash-0.7.8\src\fallback_hash.rs C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ahash-0.7.8\src\operations.rs C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ahash-0.7.8\src\random_state.rs C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ahash-0.7.8\src\specialize.rs
+
+C:\Users\Leo\Desktop\DESAFIO API\RUST\target\release\deps\ahash-99cd0e456fa10345.d: C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ahash-0.7.8\src/lib.rs C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ahash-0.7.8\src\convert.rs C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ahash-0.7.8\src\fallback_hash.rs C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ahash-0.7.8\src\operations.rs C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ahash-0.7.8\src\random_state.rs C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ahash-0.7.8\src\specialize.rs
+
+C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ahash-0.7.8\src/lib.rs:
+C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ahash-0.7.8\src\convert.rs:
+C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ahash-0.7.8\src\fallback_hash.rs:
+C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ahash-0.7.8\src\operations.rs:
+C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ahash-0.7.8\src\random_state.rs:
+C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ahash-0.7.8\src\specialize.rs:

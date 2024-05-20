@@ -1,0 +1,189 @@
+cargo:rerun-if-env-changed=ZSTD_SYS_USE_PKG_CONFIG
+TARGET = Some("x86_64-pc-windows-msvc")
+OPT_LEVEL = Some("0")
+HOST = Some("x86_64-pc-windows-msvc")
+cargo:rerun-if-env-changed=CC_x86_64-pc-windows-msvc
+CC_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CC_x86_64_pc_windows_msvc
+CC_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+DEBUG = Some("true")
+cargo:rerun-if-env-changed=CFLAGS_x86_64-pc-windows-msvc
+CFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_pc_windows_msvc
+CFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+cargo:warning=Compiler family detection failed due to error: ToolExecError: Command "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-E" "c:\\Users\\Leo\\Desktop\\DESAFIO API\\RUST\\target\\debug\\build\\zstd-sys-03bd838d0ee3803e\\out\\15340567242337990712detect_compiler_family.c" with args C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\cl.exe did not execute successfully (status code exit code: 2).
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+cargo:rerun-if-env-changed=CFLAGS_x86_64-pc-windows-msvc
+CFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_pc_windows_msvc
+CFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+cargo:warning=Compiler family detection failed due to error: ToolExecError: Command "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-E" "c:\\Users\\Leo\\Desktop\\DESAFIO API\\RUST\\target\\debug\\build\\zstd-sys-03bd838d0ee3803e\\out\\1480320643021215208detect_compiler_family.c" with args C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\cl.exe did not execute successfully (status code exit code: 2).
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+cargo:rerun-if-env-changed=CFLAGS_x86_64-pc-windows-msvc
+CFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_pc_windows_msvc
+CFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+cargo:warning=Compiler family detection failed due to error: ToolExecError: Command "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe" "-E" "c:\\Users\\Leo\\Desktop\\DESAFIO API\\RUST\\target\\debug\\build\\zstd-sys-03bd838d0ee3803e\\out\\6827688623271445384detect_compiler_family.c" with args C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\cl.exe did not execute successfully (status code exit code: 2).
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+cargo:rerun-if-env-changed=CFLAGS_x86_64-pc-windows-msvc
+CFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_pc_windows_msvc
+CFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+debug.c
+cargo:warning=cl : Linha de comando warning D9002 : ignorando op‡Æo desconhecida '-fvisibility=hidden'
+entropy_common.c
+cargo:warning=cl : Linha de comando warning D9002 : ignorando op‡Æo desconhecida '-fvisibility=hidden'
+error_private.c
+cargo:warning=cl : Linha de comando warning D9002 : ignorando op‡Æo desconhecida '-fvisibility=hidden'
+fse_decompress.c
+cargo:warning=cl : Linha de comando warning D9002 : ignorando op‡Æo desconhecida '-fvisibility=hidden'
+pool.c
+cargo:warning=cl : Linha de comando warning D9002 : ignorando op‡Æo desconhecida '-fvisibility=hidden'
+threading.c
+cargo:warning=cl : Linha de comando warning D9002 : ignorando op‡Æo desconhecida '-fvisibility=hidden'
+zstd_common.c
+cargo:warning=cl : Linha de comando warning D9002 : ignorando op‡Æo desconhecida '-fvisibility=hidden'
+fse_compress.c
+cargo:warning=cl : Linha de comando warning D9002 : ignorando op‡Æo desconhecida '-fvisibility=hidden'
+hist.c
+cargo:warning=cl : Linha de comando warning D9002 : ignorando op‡Æo desconhecida '-fvisibility=hidden'
+huf_compress.c
+cargo:warning=cl : Linha de comando warning D9002 : ignorando op‡Æo desconhecida '-fvisibility=hidden'
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+zstd_compress.c
+exit code: cargo:warning=cl : Linha de comando warning D9002 : ignorando op‡Æo desconhecida '-fvisibility=hidden'
+zstd_compress_literals.c
+cargo:warning=cl : Linha de comando warning D9002 : ignorando op‡Æo desconhecida '-fvisibility=hidden'
+zstd_compress_sequences.c
+cargo:warning=cl : Linha de comando warning D9002 : ignorando op‡Æo desconhecida '-fvisibility=hidden'
+zstd_compress_superblock.c
+cargo:warning=cl : Linha de comando warning D9002 : ignorando op‡Æo desconhecida '-fvisibility=hidden'
+cargo:warning=cl : Linha de comando warning D9002 : ignorando op‡Æo desconhecida '-fvisibility=hidden'
+zstd_double_fast.c
+zstd_fast.c
+cargo:warning=cl : Linha de comando warning D9002 : ignorando op‡Æo desconhecida '-fvisibility=hidden'
+zstd_lazy.c
+cargo:warning=cl : Linha de comando warning D9002 : ignorando op‡Æo desconhecida '-fvisibility=hidden'
+zstd_ldm.c
+cargo:warning=cl : Linha de comando warning D9002 : ignorando op‡Æo desconhecida '-fvisibility=hidden'
+zstd_opt.c
+cargo:warning=cl : Linha de comando warning D9002 : ignorando op‡Æo desconhecida '-fvisibility=hidden'
+zstdmt_compress.c
+huf_decompress.c
+cargo:warning=cl : Linha de comando warning D9002 : ignorando op‡Æo desconhecida '-fvisibility=hidden'
+cargo:warning=cl : Linha de comando warning D9002 : ignorando op‡Æo desconhecida '-fvisibility=hidden'
+zstd_ddict.c
+cargo:warning=cl : Linha de comando warning D9002 : ignorando op‡Æo desconhecida '-fvisibility=hidden'
+zstd_decompress_block.c
+zstd_decompress.c
+0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+cargo:warning=cl : Linha de comando warning D9002 : ignorando op‡Æo desconhecida '-fvisibility=hidden'
+cargo:warning=cl : Linha de comando warning D9002 : ignorando op‡Æo desconhecida '-fvisibility=hidden'
+cargo:warning=cl : Linha de comando warning D9002 : ignorando op‡Æo desconhecida '-fvisibility=hidden'
+cover.c
+divsufsort.c
+fastcover.c
+zdict.c
+cargo:warning=cl : Linha de comando warning D9002 : ignorando op‡Æo desconhecida '-fvisibility=hidden'
+cargo:warning=cl : Linha de comando warning D9002 : ignorando op‡Æo desconhecida '-fvisibility=hidden'
+cargo:warning=cl : Linha de comando warning D9002 : ignorando op‡Æo desconhecida '-fvisibility=hidden'
+zstd_v01.c
+cargo:warning=cl : Linha de comando warning D9002 : ignorando op‡Æo desconhecida '-fvisibility=hidden'
+zstd_v02.c
+zstd_v03.c
+cargo:warning=cl : Linha de comando warning D9002 : ignorando op‡Æo desconhecida '-fvisibility=hidden'
+cargo:warning=cl : Linha de comando warning D9002 : ignorando op‡Æo desconhecida '-fvisibility=hidden'
+zstd_v04.c
+zstd_v05.c
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: cargo:warning=cl : Linha de comando warning D9002 : ignorando op‡Æo desconhecida '-fvisibility=hidden'
+cargo:warning=cl : Linha de comando warning D9002 : ignorando op‡Æo desconhecida '-fvisibility=hidden'
+zstd_v06.c
+zstd_v07.c
+cargo:warning=cl : Linha de comando warning D9002 : ignorando op‡Æo desconhecida '-fvisibility=hidden'
+cargo:warning=cl : Linha de comando warning D9002 : ignorando op‡Æo desconhecida '-fvisibility=hidden'
+0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+cargo:rerun-if-env-changed=AR_x86_64-pc-windows-msvc
+AR_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=AR_x86_64_pc_windows_msvc
+AR_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_AR
+HOST_AR = None
+cargo:rerun-if-env-changed=AR
+AR = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64-pc-windows-msvc
+ARFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64_pc_windows_msvc
+ARFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_ARFLAGS
+HOST_ARFLAGS = None
+cargo:rerun-if-env-changed=ARFLAGS
+ARFLAGS = None
+cargo:rustc-link-lib=static=zstd
+cargo:rustc-link-search=native=c:\Users\Leo\Desktop\DESAFIO API\RUST\target\debug\build\zstd-sys-03bd838d0ee3803e\out
+cargo:root=c:\Users\Leo\Desktop\DESAFIO API\RUST\target\debug\build\zstd-sys-03bd838d0ee3803e\out
+cargo:include=C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\zstd-sys-2.0.10+zstd.1.5.6\zstd/lib

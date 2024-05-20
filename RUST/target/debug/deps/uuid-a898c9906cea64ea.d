@@ -1,0 +1,14 @@
+C:\Users\Leo\Desktop\DESAFIO API\RUST\target\debug\deps\libuuid-a898c9906cea64ea.rmeta: C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uuid-1.8.0\src\lib.rs C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uuid-1.8.0\src\builder.rs C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uuid-1.8.0\src\error.rs C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uuid-1.8.0\src\parser.rs C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uuid-1.8.0\src\fmt.rs C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uuid-1.8.0\src\timestamp.rs C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uuid-1.8.0\src\v4.rs C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uuid-1.8.0\src\rng.rs C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uuid-1.8.0\src\external.rs C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uuid-1.8.0\src\macros.rs
+
+C:\Users\Leo\Desktop\DESAFIO API\RUST\target\debug\deps\uuid-a898c9906cea64ea.d: C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uuid-1.8.0\src\lib.rs C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uuid-1.8.0\src\builder.rs C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uuid-1.8.0\src\error.rs C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uuid-1.8.0\src\parser.rs C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uuid-1.8.0\src\fmt.rs C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uuid-1.8.0\src\timestamp.rs C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uuid-1.8.0\src\v4.rs C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uuid-1.8.0\src\rng.rs C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uuid-1.8.0\src\external.rs C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uuid-1.8.0\src\macros.rs
+
+C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uuid-1.8.0\src\lib.rs:
+C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uuid-1.8.0\src\builder.rs:
+C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uuid-1.8.0\src\error.rs:
+C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uuid-1.8.0\src\parser.rs:
+C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uuid-1.8.0\src\fmt.rs:
+C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uuid-1.8.0\src\timestamp.rs:
+C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uuid-1.8.0\src\v4.rs:
+C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uuid-1.8.0\src\rng.rs:
+C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uuid-1.8.0\src\external.rs:
+C:\Users\Leo\.cargo\registry\src\index.crates.io-6f17d22bba15001f\uuid-1.8.0\src\macros.rs:

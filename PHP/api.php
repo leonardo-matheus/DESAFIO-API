@@ -1,6 +1,6 @@
 <?php
 // INIT
-$dsn = "sqlite:db/database.sqlite";
+$dsn = "sqlite:" . __DIR__ . "/database.sqlite";
 $db = new PDO($dsn);
 
 // CFG
@@ -8,7 +8,7 @@ $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 $db->exec("PRAGMA synchronous = OFF;");
 $db->exec("PRAGMA journal_mode = OFF;");
 
-// Create
+// Create Table
 function createTable($db) {
     $sql = "CREATE TABLE IF NOT EXISTS users (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -18,36 +18,49 @@ function createTable($db) {
     $db->exec($sql);
 }
 
-// Random
-function generateRandomData($num) {
-    $data = [];
+// Create Database and Table If Not Exists
+createTable($db);
+
+// Generate Random Data
+function generateRandomData($db, $num) {
+    $insert = $db->prepare("INSERT INTO users (name, email) VALUES (:name, :email)");
+    $db->beginTransaction();
     for ($i = 1; $i <= $num; $i++) {
         $name = "User" . $i;
         $email = "user" . $i . "@example.com";
-        $data[] = "('$name', '$email')";
+        $insert->execute([':name' => $name, ':email' => $email]);
     }
-    return implode(', ', $data);
+    $db->commit();
 }
 
-// Cria
-createTable($db);
 
-// Router
+// Simulate $_SERVER variables for CLI testing
+if (php_sapi_name() == "cli") {
+    if (!isset($argv[1])) {
+        echo "Usage: php api.php <endpoint> [request_method]\n";
+        exit(1);
+    }
+
+    $_SERVER['REQUEST_URI'] = $argv[1];
+    $_SERVER['REQUEST_METHOD'] = isset($argv[2]) ? strtoupper($argv[2]) : 'GET';
+} 
+
+// Router Handling
 $requestMethod = $_SERVER['REQUEST_METHOD'];
-$requestUri = $_SERVER['REQUEST_URI'];
+$requestUri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 
 switch ($requestUri) {
     case '/create':
         if ($requestMethod === 'POST') {
-            // Opt
+            // Drop Index if Exists
             $db->exec("DROP INDEX IF EXISTS idx_name;");
-            
+
             // Insert
-            $data = generateRandomData(10000);
+            $data = generateRandomData($db, 10000);
             $sql = "INSERT INTO users (name, email) VALUES $data;";
             $db->exec($sql);
 
-            // Index
+            // Create Index
             $db->exec("CREATE INDEX IF NOT EXISTS idx_name ON users (name);");
 
             echo json_encode(["status" => "success", "message" => "10.000 registros criados."]);
@@ -56,7 +69,7 @@ switch ($requestUri) {
 
     case '/retrieve':
         if ($requestMethod === 'GET') {
-            // GET
+            // Select
             $stmt = $db->query("SELECT id, name, email FROM users LIMIT 10000");
             $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
             echo json_encode($result);
@@ -65,10 +78,19 @@ switch ($requestUri) {
 
     case '/clear':
         if ($requestMethod === 'POST') {
-            // Limpa
+            // Clear
             $db->exec("DELETE FROM users");
-            $db->exec("VACUUM;"); // Opcional para otimização
+            $db->exec("VACUUM;"); // Optional for optimization
             echo json_encode(["status" => "success", "message" => "Banco de dados limpo."]);
+        }
+        break;
+
+    case '/count':
+        if ($requestMethod === 'GET') {
+            // Count
+            $stmt = $db->query("SELECT COUNT(*) as count FROM users");
+            $count = $stmt->fetch(PDO::FETCH_ASSOC)['count'];
+            echo json_encode(["status" => "success", "count" => $count]);
         }
         break;
 
@@ -76,4 +98,3 @@ switch ($requestUri) {
         echo json_encode(["status" => "error", "message" => "Endpoint não encontrado."]);
         break;
 }
-?>
